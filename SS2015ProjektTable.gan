@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Semester-Projekt SS 2015" company="h_Da" webLink="" view-date="2015-04-17" view-index="0" gantt-divider-location="299" resource-divider-location="320" version="2.7" locale="de">
+<?xml version="1.0" encoding="UTF-8"?><project name="Semester-Projekt SS 2015" company="h_Da" webLink="" view-date="2015-04-27" view-index="0" gantt-divider-location="385" resource-divider-location="320" version="2.7" locale="de">
     <description><![CDATA[Timetable für das Sommersemester Projekt]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Vorgang" width="56" order="0"/>
-        <field id="tpd4" name="Anfang" width="21" order="1"/>
-        <field id="tpd5" name="Ende" width="21" order="2"/>
-        <option id="color.recent"><![CDATA[#ff33cc #ff33cc #ff0000 #ff0000 #ff33cc #ff33cc #ff33cc #ffcccc #66ff66 #66ff66]]></option>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Vorgang" width="51" order="0"/>
+        <field id="tpd4" name="Anfang" width="24" order="1"/>
+        <field id="tpd5" name="Ende" width="24" order="2"/>
+        <option id="color.recent"><![CDATA[#3333ff #33ff33 #33ff33 #ff33cc #33ff33 #ff33cc #ff33cc #33ff33 #000000 #333333]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Ressource" width="50" order="0"/>
@@ -38,26 +38,48 @@
         <task id="1" name="Papergame Production" color="#8cb6ce" meeting="false" start="2015-04-16" duration="1" complete="100" expand="true"/>
         <task id="9" name="First prototypes" color="#8cb6ce" meeting="false" start="2015-04-17" duration="4" complete="100" expand="true"/>
         <task id="10" name="First Artworktest" color="#8cb6ce" meeting="false" start="2015-04-17" duration="4" complete="100" expand="true"/>
-        <task id="17" name="Programming" color="#000000" meeting="false" start="2015-04-22" duration="19" complete="4" expand="true">
-            <task id="16" name="Char Movement" color="#ff33cc" meeting="false" start="2015-04-22" duration="4" complete="20" expand="true">
+        <task id="17" name="Programming" color="#000000" meeting="false" start="2015-04-22" duration="24" complete="45" expand="true">
+            <task id="16" name="Char Movement" color="#ff33cc" meeting="false" start="2015-04-22" duration="2" complete="100" expand="true">
                 <depend id="19" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="19" name="Second Char" color="#ff33cc" meeting="false" start="2015-04-27" duration="4" complete="0" expand="true">
+            <task id="19" name="Second Char" color="#ff33cc" meeting="false" start="2015-04-24" duration="2" complete="100" expand="true">
                 <depend id="21" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="21" name="First Level" color="#ff33cc" meeting="false" start="2015-05-01" duration="5" complete="0" expand="true">
+            <task id="21" name="First Levels" color="#ff33cc" meeting="false" start="2015-04-27" duration="3" complete="100" expand="true">
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="28" name="First Itertion" color="#ff33cc" meeting="false" start="2015-05-07" duration="6" complete="0" expand="true"/>
+            <task id="28" name="Bugfixing" color="#ff33cc" meeting="false" start="2015-04-30" duration="3" complete="100" expand="true"/>
+            <task id="30" name="Menu Screen" color="#000000" meeting="false" start="2015-05-04" duration="6" complete="16" expand="true">
+                <task id="33" name="Pause und Level Select" color="#ff33cc" meeting="false" start="2015-05-04" duration="1" complete="100" expand="true">
+                    <depend id="39" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="39" name="Rest vom Menu" color="#ff33cc" meeting="false" start="2015-05-05" duration="5" complete="0" expand="true">
+                    <depend id="42" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="42" name="Restlichen Game mechanics" color="#ff33cc" meeting="false" start="2015-05-11" duration="8" complete="0" expand="true"/>
         </task>
-        <task id="22" name="Artists" meeting="false" start="2015-04-22" duration="19" complete="3" expand="true">
-            <task id="25" name="Artworks" color="#66ff66" meeting="false" start="2015-04-22" duration="10" complete="7" expand="true">
+        <task id="22" name="Artists" color="#000000" meeting="false" start="2015-04-22" duration="24" complete="32" expand="true">
+            <task id="25" name="Artworks" color="#66ff66" meeting="false" start="2015-04-22" duration="7" complete="100" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="23" name="Char Animation" color="#66ff66" meeting="false" start="2015-05-04" duration="9" complete="0" expand="true"/>
+            <task id="23" name="Character Artwork" color="#66ff66" meeting="false" start="2015-04-30" duration="12" complete="32" expand="true"/>
+            <task id="37" name="Blöcke" color="#33ff33" meeting="false" start="2015-05-07" duration="6" complete="0" expand="true"/>
+            <task id="55" name="Level Map Sketches" color="#33ff33" meeting="false" start="2015-05-11" duration="8" complete="0" expand="true"/>
         </task>
-        <task id="15" name="Buffer" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2015-05-14" duration="5" complete="0" expand="true"/>
-        <task id="3" name="Greenlighting" color="#ff0000" meeting="false" start="2015-05-20" duration="1" complete="0" expand="true"/>
+        <task id="3" name="Greenlighting" color="#ff0000" meeting="false" start="2015-05-20" duration="1" complete="0" priority="4" expand="true">
+            <notes><![CDATA[9:45 - 14:00]]></notes>
+        </task>
+        <task id="58" name="Party" color="#3333ff" meeting="false" start="2015-05-20" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Party nach Greenlighting ;P]]></notes>
+        </task>
+        <task id="49" name="Programming" color="#000000" meeting="false" start="2015-05-21" duration="27" complete="0" expand="true">
+            <task id="51" name="Leveldesign" color="#ff33cc" meeting="false" start="2015-05-21" duration="27" complete="0" expand="true"/>
+        </task>
+        <task id="44" name="Artists" color="#000000" meeting="false" start="2015-05-21" duration="27" complete="0" expand="true">
+            <task id="46" name="Level map" color="#33ff33" meeting="false" start="2015-05-21" duration="6" complete="0" expand="true"/>
+            <task id="57" name="Backgrounds &amp; Voregrounds" color="#33ff33" meeting="false" start="2015-05-28" duration="21" complete="0" expand="true"/>
+        </task>
         <task id="14" name="Buffer" color="#8cb6ce" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2015-06-22" duration="8" complete="0" expand="true"/>
         <task id="11" name="Final Presentation" color="#ff0000" meeting="false" start="2015-07-01" duration="1" complete="0" expand="true"/>
     </tasks>
@@ -67,7 +89,20 @@
         <resource id="2" name="Bosselmann Daniel" function="3" contacts="" phone=""/>
         <resource id="3" name="Nilges Emilia" function="2" contacts="" phone=""/>
     </resources>
-    <allocations/>
+    <allocations>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="44" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="3" function="2" responsible="false" load="100.0"/>
+    </allocations>
     <vacations/>
     <taskdisplaycolumns>
         <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
@@ -80,9 +115,9 @@
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="167" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="64" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="64" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="196" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="93" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="92" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
